@@ -16,7 +16,7 @@ public class RequisicaoApi {
 
         try {
             // Setting URL
-            String url_str = "https://v6.exchangerate-api.com/v6/9a70bb2357768f2a570c15b7/pair/"+ moedaInicial + "/" + moedaFinal;
+            String url_str = "https://v6.exchangerate-api.com/v6/YOUR-API-KEY/pair/"+ moedaInicial + "/" + moedaFinal;
 
             // Making Request
             URL url = new URL(url_str);
