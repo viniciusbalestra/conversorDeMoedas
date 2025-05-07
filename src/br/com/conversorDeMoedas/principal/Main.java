@@ -47,8 +47,8 @@ public class Main {
         double valorConvertido = conversor.converte(valorASerConvertido);
         double valorFinalFormatado = conversor.converte(valorConvertido);
 
-        System.out.println(String.format("$%.2f %s equivalem a $%.2f %s",
-                valorASerConvertido, codigoMoedaInicial, valorFinalFormatado, codigoMoedaFinal));
+        System.out.printf("$%.2f %s equivalem a $%.2f %s%n",
+                valorASerConvertido, codigoMoedaInicial, valorFinalFormatado, codigoMoedaFinal);
 
         scanner.close();
     }
